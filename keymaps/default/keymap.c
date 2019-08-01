@@ -24,8 +24,8 @@ enum keymap_layer {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [BASE] = LAYOUT(
-    LCTL(KC_C), LCTL(KC_x),KC_F1, TO(L4),
-    LCTL(KC_V), LCTL(),SFT_T(KC_UP), TO(L1),
+    LCTL(KC_C), LCTL(KC_x), KC_F1, TO(L4),
+    LCTL(KC_V), LCTL(), SFT_T(KC_UP), TO(L1),
     KC_RETURN, KC_SLASH, KC_DOWN, TO(L2),
     KC_QUOTE, KC_ESCAPE, KC_LEFT, TO(L3),
     LCTL(KC_Z), LCTL(KC_S), KC_RIGHT, TO(L5)
@@ -39,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
   [L2] = LAYOUT(
     KC_LPRN, KC_MINUS, KC_F1, TO(L4),
-    KC_PLUS, KC_RPRN,SFT_T(KC_UP), TO(L1),
+    KC_PLUS, KC_RPRN, SFT_T(KC_UP), TO(L1),
     KC_LBRACKET, KC_LCBR, KC_DOWN, TO(L2),
     KC_RCBR, KC_RBRACKET, KC_LEFT, TO(L3),
     KC_LABK, KC_RABK, KC_RIGHT, TO(L5)
