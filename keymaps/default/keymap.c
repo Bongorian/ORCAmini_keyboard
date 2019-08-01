@@ -46,5 +46,5 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_LBRACKET, KC_LCBR, KC_DOWN, TO(L2),
     KC_RCBR, KC_RBRACKET, KC_LEFT, TO(L3),
     KC_LABK, KC_RABK, KC_RIGHT, TO(L5)
-  ),
+  )
 };
