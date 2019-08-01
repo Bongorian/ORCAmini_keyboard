@@ -33,7 +33,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {[BASE] = LAYOUT(LC
                                                               [L4]   = LAYOUT(KC_G, KC_H, KC_F1, TO(BASE), KC_J, KC_K, SFT_T(KC_UP), TO(L1), KC_V, KC_B, KC_DOWN, TO(L2), KC_SPACE, KC_BSPACE, KC_LEFT, TO(L3), KC_E, KC_R, KC_RIGHT, TO(L5)),
                                                               [L5]   = LAYOUT(KC_L, KC_U, KC_F1, TO(L4), KC_I, KC_O, SFT_T(KC_UP), TO(L1), KC_N, KC_M, KC_DOWN, TO(L2), KC_P, TO(NUM), KC_LEFT, TO(L3), KC_T, KC_Y, KC_RIGHT, TO(BASE)),
                                                               [NUM]  = LAYOUT(KC_2, KC_3, KC_SPACE, KC_ENTER, KC_4, KC_5, KC_UP, KC_LSHIFT, KC_6, KC_7, KC_DOWN, KC_ESCAPE, KC_8, KC_9, KC_LEFT, TO(BASE), KC_0, KC_1, KC_RIGHT, TO(BENRI)),
-                                                              [BENRI]  = LAYOUT(RASPBERRY, PI,  MO(BASE), KC_ENTER, CD, LS, MO(L4),MO(BASE) SUDO, GIT, MO(NUM),MO(L2), KC_BSPACE, KC_ENTER, MO(L3),TO(BASE),KC_SPACE,KC_UP,MO(L5),TO(BASE)};
+                                                              [BENRI]  = LAYOUT(RASPBERRY, PI,  MO(BASE), KC_ENTER, CD, LS, MO(L4),MO(BASE) SUDO, GIT, MO(NUM),MO(L2), KC_BSPACE, KC_ENTER, MO(L3),TO(BASE),KC_SPACE,KC_UP,MO(L5),TO(BASE))};
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
